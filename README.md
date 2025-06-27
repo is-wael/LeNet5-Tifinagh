@@ -6,23 +6,13 @@
 
 ## 1. Overview
 
-This repository contains a complete, "from-scratch" implementation of the LeNet-5 convolutional neural network (CNN) in Python using NumPy. The project was developed to gain a fundamental understanding of the internal mechanics of CNNs and to apply this historical architecture to a modern and culturally relevant task: the classification of the 33 handwritten characters of the Tifinagh (Amazigh) alphabet.
+This repository contains a complete, implementation of the LeNet-5 convolutional neural network (CNN) in Python using NumPy. The project was developed to gain a fundamental understanding of the internal mechanics of CNNs and to apply this historical architecture to a modern and culturally relevant task: the classification of the 33 handwritten characters of the Tifinagh (Amazigh) alphabet.
 
 The entire learning pipeline, including all neural network layers (Convolutional, Pooling, Dense), activation functions, the backpropagation algorithm, and the training loop, was implemented manually without relying on high-level deep learning frameworks like TensorFlow or PyTorch.
 
 ---
 
-## 2. Project Context
-
-This project was submitted as part of the requirements for the **Master's program in Intelligent Systems and Data Analysis (IAA)** at the Polydisciplinary Faculty of Ouarzazate (Ibn Zohr University).
-
--   **Student:** Ismaili Ouael
--   **Supervisors:** Prof. M. BENADDY & Prof. A. HADRI
--   **Academic Year:** 2024-2025
-
----
-
-## 3. Core Objectives
+## 2. Core Objectives
 
 -   **Implement LeNet-5 from Scratch:** Manually code each layer and the backpropagation mechanism using NumPy.
 -   **Apply to a Custom Dataset:** Train and evaluate the model on the Amazigh Handwritten Character Database (AMHCD).
@@ -32,7 +22,7 @@ This project was submitted as part of the requirements for the **Master's progra
 
 ---
 
-## 4. Architecture: Adapted LeNet-5
+## 3. Architecture: Adapted LeNet-5
 
 The model follows the classic LeNet-5 architecture, adapted for 33 output classes.
 
@@ -48,13 +38,13 @@ The model follows the classic LeNet-5 architecture, adapted for 33 output classe
 
 ---
 
-## 5. Dataset
+## 4. Dataset
 
 The model is trained on the **Amazigh Handwritten Character Database (AMHCD)**, which can be found on Kaggle. This dataset contains over 25,000 images across 33 classes corresponding to the Tifinagh alphabet characters.
 
 ---
 
-## 6. Technologies Used
+## 5. Technologies Used
 
 -   **Language:** Python 3
 -   **Core Libraries:**
@@ -66,7 +56,7 @@ The model is trained on the **Amazigh Handwritten Character Database (AMHCD)**, 
 
 ---
 
-## 7. How to Run the Code
+## 6. How to Run the Code
 
 The entire project is contained within the `LeNet5_Tifinagh.ipynb` Jupyter Notebook. To replicate the results, follow these steps:
 
@@ -88,7 +78,7 @@ The entire project is contained within the `LeNet5_Tifinagh.ipynb` Jupyter Noteb
 
 ---
 
-## 8. Results Summary
+## 7. Results Summary
 
 The from-scratch LeNet-5 model achieved a high level of performance on this complex 33-class classification task.
 
@@ -96,13 +86,13 @@ The from-scratch LeNet-5 model achieved a high level of performance on this comp
 
 #### Learning Curves
 *(You can insert your learning curves image here)*
-`![Learning Curves](path/to/your/learning_curves.png)`
+`![Learning Curves](results/courbes.png)`
 
 The learning curves show a smooth convergence with a minimal gap between training and validation sets, indicating good generalization.
 
 #### Confusion Matrix
 *(You can insert your confusion matrix image here)*
-`![Confusion Matrix](path/to/your/confusion_matrix.png)`
+`![Confusion Matrix](results/matrix.png)`
 
 The confusion matrix shows a strong diagonal, confirming high accuracy across most classes, with minor confusions between visually similar characters.
 
