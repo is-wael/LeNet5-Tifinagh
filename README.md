@@ -1,7 +1,7 @@
-# LeNet-5 From Scratch for Tifinagh Character Recognition
+# LeNet-5 for Tifinagh Character Recognition
 
 ![Python 3.x](https://img.shields.io/badge/Python-3.x-blue.svg)
-![Framework](https://img.shields.io/badge/Framework-NumPy%20(From%20Scratch)-orange.svg)
+![Framework](https://img.shields.io/badge/Framework-NumPy%20-orange.svg)
 
 
 ## 1. Overview
@@ -85,14 +85,12 @@ The from-scratch LeNet-5 model achieved a high level of performance on this comp
 -   **Peak Validation Accuracy:** **97.13%**
 
 #### Learning Curves
-*(You can insert your learning curves image here)*
-`![Learning Curves](results/courbes.png)`
+![Learning Curves](results/courbes.png)
 
 The learning curves show a smooth convergence with a minimal gap between training and validation sets, indicating good generalization.
 
 #### Confusion Matrix
-*(You can insert your confusion matrix image here)*
-`![Confusion Matrix](results/matrix.png)`
+![Confusion Matrix](results/matrix.png)
 
 The confusion matrix shows a strong diagonal, confirming high accuracy across most classes, with minor confusions between visually similar characters.
 
